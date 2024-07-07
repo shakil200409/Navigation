@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="nav.css">
+    <style>
+        *{
+            margin: 0;
+        }
+        table{
+            border-collapse: collapse;
+            /* margin: 100px; */
+            margin: auto;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px 15px;
+        }
+        caption{
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="vidAud.html">Video</a></li>
+                <li>
+                    <a href="table.html">Table</a>
+            
+                    <ul class="dropdown">
+                        <li><a href="vidAud.html">Video</a></li>
+                        <li><a href="table.html">Table</a></li>
+                        <li><a href="form.html">Form</a></li>
+                        <li><a href="index.html">Blog</a></li>
+                    </ul>
+                </li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="index.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <table>
+            <caption>A table for employees</caption>
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Name</th>
+                    <th>Company</th>
+                    <th>Salary</th>
+                </tr>
+           </thead>
+           <tbody>
+            <tr>
+                <td>01</td>
+                <td>Bill Gates</td>
+                <td>Microsoft</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Shakil</td>
+                <td>Rolls-Royels</td>
+                <td>1200$</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Remon</td>
+                <td>Basha-bari</td>
+                <td>1500$</td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>Adnan</td>
+                <td>Agancy</td>
+                <td>1000$</td>
+            </tr>
+            <tr>
+                <td>05</td>
+                <td>Fahim</td>
+                <td>Laptop</td>
+                <td>500$</td>
+            </tr>
+           </tbody>
+           <tfoot>
+            <tr>
+                <td colspan="4">Total employee: 5</td>
+            </tr>
+           </tfoot>
+        </table>
+    </main>
+    
+</body>
+</html>

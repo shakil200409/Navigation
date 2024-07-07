@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pithar Dukan</title>
+    <link rel="stylesheet" href="nav.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="vidAud.html">Video</a></li>
+                <li>
+                    <a href="table.html">Table</a>
+                    <ul class="dropdown">
+                        <li><a href="vidAud.html">Video</a></li>
+                        <li><a href="table.html">Table</a></li>
+                        <li>
+                            <a href="form.html">Form</a>
+                            <ul class="dropdown">
+                                <li><a href="vidAud.html">Video</a></li>
+                                <li><a href="table.html">Table</a></li>
+                                <li><a href="form.html">Form</a></li>
+                                <li><a href="index.html">Blog</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="index.html">Blog</a></li>
+                    </ul>
+                </li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="index.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Please fill up the form</h1>
+            <form>
+                <label for="name"> Your Name: 
+                    <input type="text">
+                </label>
+                <label for="email"> Your Email: 
+                    <input type="email">
+                </label>
+                <label for="number"> Your Number: 
+                    <input type="number">
+                </label>
+
+                <fieldset>
+                    <legend>Select One Pitha</legend>
+                    <label for="chitoi">
+                        <input type="radio" name="pitha" id="chitoi"> Chitoi
+                    </label>
+                    <label for="Vapa">
+                        <input type="radio" name="pitha" id="vapa"> Vapa
+                    </label>
+                    <label for="Handesh">
+                        <input type="radio" name="pitha" id="Handesh"> Handesh
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Pick any kind of Vorta</legend>
+                    <label for="sorisha">
+                        <input type="checkbox" name="vorta" id="sorisha"> Sorisha
+                    </label>
+                    <label for="sutki">
+                        <input type="checkbox" name="vorta" id="sutki"> sutki
+                    </label>
+                    <label for="morich">
+                        <input type="checkbox" name="vorta" id="morich"> morich
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Special orders</legend>
+                    <textarea name="" id="" cols="30" rows="2"></textarea>
+                </fieldset>
+                <fieldset>
+                    <input type="reset" value="reset">
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+</body>
+</html>

@@ -1,0 +1,48 @@
+*{
+    /* margin: 0; */
+    /* padding: 0; */
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+nav{
+    background-color: rgb(97, 97, 223);
+    padding: 3px ;
+}
+nav ul{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+ul li{
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-right: 20px;
+    list-style: none;
+}
+nav li:hover{
+    background-color: blueviolet;
+}
+nav li a{
+    color: bisque;
+}
+nav li a:hover{
+    color: black;
+}
+
+
+section{
+    margin: 10px 50px;
+}
+section> p{
+    text-align: justify;
+
+}
+
+
+footer> p{
+    text-align: center;
+    margin-top: 50px;
+}

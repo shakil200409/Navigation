@@ -1,0 +1,43 @@
+nav{
+    background-color: rgb(97, 97, 223);
+    padding: 5px ;
+}
+nav> ul{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+ul li{
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-right: 20px;
+    list-style: none;
+}
+nav li:hover{
+    background-color: blueviolet;
+}
+nav li a{
+    color: bisque;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: black;
+}
+
+/* Nested Menu Styles */
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: rgb(240, 144, 0);
+    border-radius: 5px;
+    /* transition: 1s; */
+    padding: 0;
+    /* margin-right: 0; */
+    padding-left: 20px;
+}
+nav li:hover> .dropdown{
+    display: block;
+    /* transition: 1s; */
+}
